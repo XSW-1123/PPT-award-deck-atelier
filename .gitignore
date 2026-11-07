@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 本地生成物：图片、PPT、PDF、预览都不入库
+images/
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.pptx
+*.pdf
+*.zip
+dist/
+build/
+*_out/
+atelier_selftest_out/
+
+# 项目私有数据
+.workbuddy/memory/
+validation/
+svg_output/
+animations.json
+spec_lock.md
+names.txt
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
