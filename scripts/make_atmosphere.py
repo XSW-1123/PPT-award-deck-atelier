@@ -268,7 +268,7 @@ def self_test(out: str) -> int:
     }
     files = run(cfg, tmp, out, 'all')
     for f in files:
-        p = f if os.path.isfile(f) else os.path.join(out, f)
+        p = f if os.path.isabs(f) else os.path.join(out, f)
         if not os.path.isfile(p):
             print('SELFTEST FAIL missing: ' + p)
             return 1
