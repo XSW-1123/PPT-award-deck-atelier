@@ -56,7 +56,7 @@ PPT-award-deck-atelier/
 │   ├── make_atmosphere.py         # 摄影 → 朦胧背景 + 透明素材 PNG（Pillow）
 │   ├── make_animations.py         # 生成 Morph 三对象 + 入场动画 sidecar
 │   ├── sync_spec_lock.py          # 扫 SVG 字号，自动补齐 spec_lock 声明
-│   ├── scaffold_project.py         # 初始化项目骨架与 15 页名册
+│   ├── scaffold_project.py        # 初始化项目骨架与 15 页名册
 │   └── audit_deck.py              # PPTX 结构 / 转场 / 配对 / 水印 / 元数据体检
 └── assets/
     └── example_brief.md           # 脱敏示例：需求 → 完整路由输出 → 配置 → 命令
