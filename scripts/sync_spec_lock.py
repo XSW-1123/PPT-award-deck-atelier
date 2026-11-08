@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 """扫全部 SVG 的 font-size，自动补齐 spec_lock.md 的 ## typography 声明。
 
 `--stage final` 门禁规则：任何字号出现 > 2 次，必须在 spec_lock.md 的
