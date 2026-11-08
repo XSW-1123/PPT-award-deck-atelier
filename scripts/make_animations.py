@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 """生成 ppt-master 的 animations.json：全书 Morph + 三个强制配对 + 入场动画。
 
 规则（见 references/morph-engineering.md / svg-contract.md）：
@@ -48,7 +47,7 @@ def parse_pairs(items) -> dict:
         key, gid = raw.split(':', 1)
         key, gid = key.strip(), gid.strip()
         if key.startswith('!!'):
-            raise ValueError('pair key must NOT start with !!, got %_r' % key)
+            raise ValueError('pair key must NOT start with !!, got %r' % key)
         pairs[key] = {'from': gid, 'to': gid}
     return pairs or dict(DEFAULT_PAIRS)
 
