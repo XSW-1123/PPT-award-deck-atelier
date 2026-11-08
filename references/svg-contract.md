@@ -36,7 +36,7 @@
 - `<polyline>` → 用 `<path d="M… L…">`；
 - `stroke-dasharray` → 拆成短 `<line>`；
 - `<pattern>` → 手画重复线段；
-- `<path d="A..."` 圆弧 → 用离散点 `<polygon>`（`arc_poly()`）。
+- `<path d="A...">` 圆弧 → 用离散点 `<polygon>`（`arc_poly()`）。
 
 ### 图片引用
 
